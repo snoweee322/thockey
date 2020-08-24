@@ -18,10 +18,12 @@ public class Games {
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
-    public static final Comparator<Games> COMPARE_BY_DAY = new Comparator<Games>() {
+    Games(){}
+
+    public static final Comparator<Games> COMPARE_BY_TIME = new Comparator<Games>() {
         @Override
         public int compare(Games games, Games t1) {
-            return Long.compare(games.event.startAtDay, t1.event.eventStartAt);
+            return Long.compare(games.event.startAt, t1.event.startAt);
         }
     };
 }

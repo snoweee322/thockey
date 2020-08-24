@@ -6,5 +6,6 @@ public class Main {
 
         Bot bot = new Bot();
         bot.getGames();
+        //bot.saveToJson();
     }
 }

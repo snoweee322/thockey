@@ -13,5 +13,4 @@ dependencies {
     implementation 'com.github.pengrad:java-telegram-bot-api:4.9.0'
     compile group: 'io.vertx', name: 'vertx-core', version: '3.9.1'
     compile group: 'io.vertx', name: 'vertx-web-client', version: '3.9.2'
-    compile 'io.vertx:vertx-rx-java:3.9.2'
 }
