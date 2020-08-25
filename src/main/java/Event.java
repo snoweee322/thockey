@@ -85,7 +85,4 @@ public class Event {
     public Object m3u8Url;
     @JsonProperty("feed_url")
     public Object feedUrl;
-
-    public Integer PAGE;
-
 }

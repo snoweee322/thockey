@@ -1,16 +1,1 @@
-plugins {
-    id 'java'
-}
-
-group 'org.example'
-version '1.0-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation 'com.github.pengrad:java-telegram-bot-api:4.9.0'
-    compile group: 'io.vertx', name: 'vertx-core', version: '3.9.1'
-    compile group: 'io.vertx', name: 'vertx-web-client', version: '3.9.2'
-}
+plugins {    id 'java'}group 'org.example'version '1.0-SNAPSHOT'repositories {    mavenCentral()}jar {    manifest {        attributes 'Main-Class': 'Main.Class'    }}dependencies {    implementation 'com.github.pengrad:java-telegram-bot-api:4.9.0'    compile group: 'io.vertx', name: 'vertx-core', version: '3.9.1'    compile group: 'io.vertx', name: 'vertx-web-client', version: '3.9.2'}
