@@ -1,3 +1,5 @@
+package JsonKHL;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
@@ -9,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "name",
     "location"
 })
-public class TeamB {
+public class TeamA {
 
     @JsonProperty("id")
     public Integer id;
@@ -21,4 +23,5 @@ public class TeamB {
     public String name;
     @JsonProperty("location")
     public String location;
+
 }
